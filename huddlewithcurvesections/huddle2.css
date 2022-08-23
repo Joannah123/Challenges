@@ -24,11 +24,14 @@ h3, h1{
 }
 .subscribe{
     background-color:  hsl(321, 100%, 78%);
-    height: 30px;
-    width: 140px;
+    height: 20px;
+    width: 100px;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     color: white;
+    position: relative;
+    left: 120px;
+    bottom: 22px;
 }
 .footer{
     background-color:  hsl(192, 100%, 9%);
@@ -49,7 +52,7 @@ h3, h1{
     display: inline;
 }
 .footer1{
-    width: 200px;
+    width: 350px;
 }
 .footer2{
     width: 200px;
