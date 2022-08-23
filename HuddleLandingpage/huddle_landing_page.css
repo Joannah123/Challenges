@@ -67,6 +67,7 @@ body{
    
     display: flex;
     flex-direction: column;
+    place-items: center;
    
 }
 .space{
@@ -171,7 +172,7 @@ body{
     border-radius: 10px;
     position: relative;
     top: 70px;
-    left: 220px;
+    left: 60px;
 
 }
 @media (max-width:375px){
