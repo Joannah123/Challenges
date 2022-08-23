@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body{
+    background-color: #E5EFF5;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    display:grid;
+    grid-template-columns:minmax(4, 3fr);
+    
+    width:30rem;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.box1{
+    background-color: white;
+    grid-column: 1/4;
+    text-align: left;
+    padding: 1em;
+
+}
+.box2{
+    background-color: #2AB2AF;
+    color: white;
+    grid-column: 1/2;
+    text-align: left;
+    padding-left: 1em;
+    width: 15em;
+}
+.box3{
+    background-color: hsl(179, 47%, 52%);
+    color: hsl(204, 43%, 93%);
+    grid-column: 2/4;
+    text-align: left;
+    width: 15em;
+}
+.button{
+    width:12rem;
+    height:3em;
+    background-color:#C0DF34 ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+.paragraph1{
+    color:#2AB2AF;
+}
+.paragraph2{
+    font-size: 14px;
+}
+.monthly{
+    color: white;
+}
+
+.monthly1{
+    color:white;
+    padding-left: 1em;
+}
+h3{
+    color:  #2AB2AF;
+    font-weight: 700;
+   
+}
+h4{
+    color: #C0DF34;
+}
+ul{
+    list-style: none;
+    margin-block-start: 0.5em;
+    padding-left: 1em;
+}
+@media all and (max-width:375px) {
+    body{
+        width: 375px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .box1{
+        width: 300px;
+        height: 300px;
+    }
+    .box2{
+        width: 315.5px;
+        height: 300px;
+    }
+    .box3{
+        width: 332px;
+        height: 300px;
+    }
+}

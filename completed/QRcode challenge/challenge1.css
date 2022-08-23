@@ -1,0 +1,26 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #8A94A8;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    background-color: white;
+    width:320px;
+    height:450px;
+    text-align: center;
+    border-radius: 10px;
+}
+img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color:	#D6E2F0
+}
+h3{
+    font-weight: 700;
+}

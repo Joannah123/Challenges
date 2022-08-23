@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font: 14px;
+
+}
+.container{
+    display:flex;
+    font-family: 'Patua One', cursive;
+    justify-content:center;
+    position:relative;
+    top:100px;
+    align-items: center;
+    border: none;
+    
+    
+}
+img{
+    border-radius: 10px 0px 0px 10px; 
+}
+.container_1{
+    border-radius: 10px 0px 0px 10px;
+}
+
+h1{
+    font-weight: 900;
+    
+}
+.span_1{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 2em
+}
+.paragraph{
+    font-family: 'Quicksand', sans-serif;
+    width: 15em;
+/* 
+    font-weight: 100; */
+}
+.price{
+    
+    font-size:27px;
+    color:hsl(158, 36%, 37%);
+}
+.container_2 {
+    border-radius: 0px 10px 10px 0px;
+    height:433px;
+    width:18em;
+    background-color: white;
+    }
+    h3{
+        font-size: 0.5em;
+        font-weight: 400;
+    }
+.button{
+    background-color: hsl(158, 36%, 37%);
+    height:40px;
+    width:200px;
+    border-radius: 10px;
+  
+    border: none;
+    color: white;
+}
+.content{
+    position: relative;
+    left: 17px;    
+}
+@media all and (max-width:375px){
+    body{
+        width: 375px;
+    }
+    .container{
+        flex-direction: column;
+    }
+}

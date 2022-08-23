@@ -1,0 +1,56 @@
+body{
+  background-image: url("./images/pattern-background-desktop.svg");
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    width:300px;
+    height:500px;
+    background-color:white ;
+    border-radius: 15px  15px 15px 15px;
+    overflow: hidden;
+}
+h1{
+    font-weight: 900;
+}
+a{
+    color:#3829E0;
+}
+.paragraph{
+   font-weight: 500;
+   font-size: 16px;
+   color: #E0E8FF;
+}
+.image{
+    border-radius: 15px 15px 0px 0px;
+}
+.icon{
+    width:250px;
+    height:70px;
+    background-color: #F5F7FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:30px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.button{
+    background-color: #3829E0;
+    border:none;
+    width:250px;
+    height:40px;
+    border-radius: 10px;
+    position: relative;
+    top:20px;
+    box-shadow: 2px 17px 10px #E0E8FF;
+}
+.footer{
+    position: relative;
+    top:25px;
+}
+.sub_container{
+    text-align: center;
+}
