@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 body{
-    width: 1440px;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
@@ -162,10 +162,12 @@ body{
         padding-left: 0px;
     }
     .span span{
-        display: inline;
+        padding-right: 14px;
+        padding-top: 14px;
     }
     .span{
         padding: 0px;
+        display: contents;
     }
     .illustrate{
         width: 300px;
