@@ -149,3 +149,59 @@ h3, h1{
     place-items: center;
     padding-top: 50px;
 }
+@media all and (max-width:375px){
+    body{
+        width:375px;
+    }
+    .header{
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .box2{
+        flex-direction: column-reverse;
+    }
+    .box3{
+        flex-direction: column-reverse;
+    }
+    .box4{
+        flex-direction: column-reverse;
+    }
+    .sub_box1{
+        width: 300px;
+    }
+    .subb_box1{
+        padding-right: 3px;
+    }
+    .space{
+        padding-right: 0px;
+    }
+    .your_users1{
+        margin-right: 0px;
+    }
+    .sub_box3{
+        flex-direction: column;
+        place-self: self-end;
+    }
+    .one{
+        padding-right: 0px;
+       
+    }
+    .footer{
+       flex-direction: column-reverse; 
+       padding-left: 30px;
+    }
+    .footer1{
+        padding-top: 40px;
+    }
+    .input{
+        width: 100%;
+    }
+    .subscribe{
+        position: relative;
+        left: 110px;
+        bottom: 0px;
+    }
+    .mockups{
+        width: 300px;
+    }
+}
