@@ -124,7 +124,7 @@ p{
 }
 .footer {
   background-color: #99ccff;
-  height: 7em;
+  height: 200px;
   margin-top: 2em;
   display: flex;
   flex-direction: row;
@@ -143,4 +143,62 @@ p{
   width: 2em;
   height: 2em;
   margin-right: 1em;
+}
+@media all and (max-width:375px){
+  body{
+    width: 375px;
+  }
+  .sub_box1{
+    margin-left: 40px;
+  }
+  .box3{
+    flex-direction: column;
+    text-align: center;
+  }
+  .box4 p{
+    text-align: center;
+  }
+  .box5{
+    flex-direction: column;
+    
+  }
+  .box5 div{
+    width: 100%;
+    text-align: center;
+  }
+  .box6{
+    display: grid;
+    grid-gap: 40px;
+  }
+
+  .computer {
+    
+    width: 300px;
+  }
+  .devices_image{
+    width: 300px;
+  }
+  .footer2{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .space div{
+    padding: 7px;
+    width: max-content;
+  }
+  .footer{
+    flex-direction: column;
+    height: 100%;
+  }
+  .buton{
+    display: grid;
+    grid-gap: 20px;
+
+  }
+  .button_ios{
+    box-shadow: 2px 6px 13px  hsl(201, 11%, 66%);
+  }
+  .button_mac{
+    box-shadow: 2px 4px 7px #add8e6;
+  }
 }
