@@ -8,7 +8,11 @@ body{
 }
 
 .header{
-    padding-top: 1em;
+    padding-top: 20px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+
 }
 .whitey{
     fill: white;
@@ -28,7 +32,7 @@ body{
     padding-top: 10em;
 }
 .logo{
-    margin-left: 9em;
+    margin-left: 120px;
 }
 .grow_together{
     margin-left: 10em;
@@ -131,7 +135,7 @@ body{
   width: 13em;
   height: 2.7em;
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   color: white;
   background-color: hsl(322, 100%, 66%);
 }
@@ -153,7 +157,7 @@ body{
     background-color: white;
     align-items: flex-end;
     position: relative;
-    left: 70em;
+    left: 800px;
     color: black;
     font-weight: 700;
     box-shadow: 2px 7px 7px hsl(208, 11%, 55%);
@@ -172,12 +176,12 @@ body{
     border-radius: 10px;
     position: relative;
     top: 70px;
-    left: 60px;
+    left: 58px;
 
 }
-@media (max-width:375px){
+@media (max-width:800px){
     body{
-        width: 375px;
+        width: 100%;
     }
     
     .image1{
@@ -186,17 +190,21 @@ body{
     }
     .logo{
         margin-left: 0px;
+        padding-left: 6%;
     }
     .button_header{
         padding-left: 0px;
         position: relative;
-        left: 92px;
+        left: 75px;
     }
     .content{
         margin: 10px;
     }
     .ready{
         padding-top: 10px;
+        margin-top: 0; 
+        text-align: center;
+        margin-bottom: 40px;
     }
     .box4{
         
