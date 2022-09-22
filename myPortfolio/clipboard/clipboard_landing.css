@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;700&display=swap");
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  
+}
+p{
+  color:  hsl(210, 10%, 33%);
+}
+.box4 p{
+  margin: 0;
+}
+.supercharge{
+  margin-bottom: 5%;
+}
+.box5 div img{
+  padding-bottom: 20px;
+}
+.header {
+  background-image: url(./images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url(./images/bg-header-mobile.png);
+}
+.header p {
+  width: 50%;
+}
+.header img{
+  padding-bottom: 90px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.space {
+  margin-right: 1em;
+  padding-right: 20px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  text-align: center;
+  width: 60%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  /* margin-left: 25em; */
+}
+.box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box5 div {
+  width: 20%;
+}
+.box5 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 140px;
+}
+.box7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.sub_box5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub_box1 {
+  margin-right: 3em;
+}
+.sub_box1 img{
+  width: 70%;
+  margin-left: 25%;
+}
+.devices_image {
+  margin-top: 5em;
+  
+}
+.sub_boxtwo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3em;
+  justify-content: space-between;
+}
+.box6 {
+  margin: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 150px;
+}
+.button_ios {
+  background-color: hsl(171, 66%, 44%);
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 2em;
+  color: white;
+  box-shadow: 4px 4px 3px 0px  hsl(171, 66%, 44%);
+}
+.buton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.button_mac {
+  background-color: hsl(233, 100%, 69%);
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  box-shadow: 4px 4px 3px 0px  hsl(233, 100%, 69%);
+}
+.footer {
+  background-color:  hsl(201, 11%, 66%) ;
+  height: 200px;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+}
+.footer2 .space div{
+  padding-bottom: 20px;
+}
+.footer3{
+  display: flex;
+}
+.image_footer {
+  width: 60%;
+
+  margin-right: 1em;
+}
+@media all and (max-width:800px){
+  body{
+    width: 100%;
+  }
+  .header img {
+    padding-bottom: 0;
+  }
+  .header h1{
+    padding: 20px;
+  }
+  .supercharge{
+    width: 80%;
+    text-align: center;
+  }
+  .button_ios{
+    margin-right: 0;
+  }
+  .buton{
+    display: flex;
+    flex-direction: column;
+  }
+  .box2{
+    width: 70%;
+  }
+  
+  .box3{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .box4 h2{
+    padding: 40px;
+    text-align: center;
+  }
+  .box4 p{
+    text-align: center;
+    width: 80%;
+  }
+  .box5{
+    flex-direction: column;
+    padding: 30px;
+    
+  }
+  .box5 div{
+    width: 100%;
+    text-align: center;
+    
+  }
+  .box6{
+    display: grid;
+    grid-gap: 40px;
+  }
+  .box7{
+    text-align: center;
+    padding: 20px;
+  }
+  .computer {
+    
+    width: 40%;
+  }
+  .devices_image{
+    width: 300px;
+    margin-top: 50px;
+  }
+  .footer2{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .space div{
+    padding: 7px;
+    width: max-content;
+  }
+  .footer{
+    flex-direction: column;
+    height: 100%;
+    padding: 140px;
+  }
+  
+  .button_ios{
+    box-shadow: 5px 5px 8px   hsl(171, 66%, 44%);
+    margin-bottom: 20px;
+  }
+  .button_mac{
+    box-shadow: 2px 4px 7px #add8e6;
+  }
+}

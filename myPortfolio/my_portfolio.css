@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-weight: 600;
+    
+}
+
+.home{
+    height: 50vh;
+    text-align: center;
+    padding: 50px;
+   
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_page{
+    text-align: center;
+    height: 75vh;
+    padding: 30px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+.aform{
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #97978F !important;
+    border-radius: 10px;
+}
+.contact_page{
+    text-align: center;
+    padding: 30px;
+   
+    
+}
+a:hover{
+    color: #EC9706;
+}
+.left1{
+    width: 40%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.copyright{
+    margin-left: 80%;
+}
+.navbar, .home{
+    background-color: #D6CFCA;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.projects{
+    background-color: #D6CFCA;
+    text-align: center;
+    padding: 40px;
+}
